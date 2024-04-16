@@ -1,0 +1,19 @@
+function lifeInWeeks(currentAge) {
+    
+/************Don't change the code above************/    
+    
+    // Constants for the calculations
+    const averageLifespan = 90;
+    
+    // Calculate the time left in various units
+    const yearsLeft = averageLifespan - currentAge;
+    const daysLeft = yearsLeft * 365;  // Assuming 365 days in a year
+    const weeksLeft = yearsLeft * 52;  // Assuming 52 weeks in a year
+    const monthsLeft = yearsLeft * 12; // Assuming 12 months in a year
+    
+    // Output the results
+    console.log("You have " + daysLeft + " days, " + weeksLeft + " weeks, and " + monthsLeft + " months left.");
+
+/*************Don't change the code below**********/
+}
+lifeInWeeks(12);
